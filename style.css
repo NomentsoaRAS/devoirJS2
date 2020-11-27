@@ -1,0 +1,187 @@
+.titre{
+    position: relative;
+    bottom: 20px;
+}
+
+.fil{
+    font-style: oblique;
+    font-weight: 1000;
+}
+
+.anarana{
+    font-style: oblique;
+    color: rgb(0, 120, 201);
+    font-weight: 900;
+}
+
+.foot{
+    position: relative;
+    font-size: 10px;
+    padding: 5px;
+    bottom: 5px;
+}
+
+.devise{
+    font-family: Georgia;
+    font-style: oblique;
+}
+
+.md_header{
+    width: 100%;
+    background-color: #fff;
+    height: 5%;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+
+.md_body{
+    background-color: #fff;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+}
+
+.md_footer{
+    background-color: #fff;
+    width: 100%;
+    height: 5%;
+    border-radius: 0 0 5px 5px;
+    text-align: center;
+}
+
+.haut{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+}
+
+.bas{
+    position: relative;
+    width: 100%;
+    height: 65%;
+    display: flex;
+    flex-direction: row;
+}
+
+.hg{
+    position: relative;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hd{
+    width: 70%;
+    height: 100%;
+    text-align: center; 
+    justify-content: space-around;
+    padding-right: 10px; 
+}
+
+.bg{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+
+.bd{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    z-index: 2;
+}
+
+.logo{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-image: url("logo_ispm.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+}
+
+.sary{
+    position: relative;
+    width: 150px;
+    height: 200px;
+    background-image: url("aaa.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: local;
+    box-shadow: 0 0px 5px #000;
+}
+
+.violet{
+    position: relative;
+    width: 97%;
+    height: 97%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+}
+
+
+/*MODAL*/
+.modal-bg{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.5s, opacity 0.5s;
+}
+
+.bg-active{
+    visibility: visible;
+    opacity: 1;
+}
+
+.modal{
+    position: relative;
+    background-color: rgb(170, 2, 248);
+    width: 35%;
+    height: 95%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 0px 10px #F6F7FB;
+}
+
+.modal button{
+    padding: 10px 30px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 8);
+}
+
+.modal-close{
+    position: absolute;
+    top: 2px;
+    right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    visibility: hidden;
+}
